@@ -18,7 +18,7 @@ public class Mydapter extends RecyclerView.Adapter<Mydapter.MyViewHolder> {
     private List<AppEntity>apps;
 
     public Mydapter(FragmentActivity activity, List<AppEntity> appEntityList) {
-        this
+        this.apps=appEntityList;
 
     }
 
